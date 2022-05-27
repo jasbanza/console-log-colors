@@ -1,0 +1,22 @@
+{
+  "name": "js-console-log-colors",
+  "version": "1.0.0",
+  "description": "Color markup wrapper module for console.log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasbanza/js-console-log-colors.git"
+  },
+  "keywords": [
+    "console", "markup"
+  ],
+  "author": "jasbanza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasbanza/js-console-log-colors/issues"
+  },
+  "homepage": "https://github.com/jasbanza/js-console-log-colors#readme"
+}
