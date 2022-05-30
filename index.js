@@ -33,6 +33,10 @@ class ConsoleLogColors {
     this._out();
   }
 
+  debug(txt) {
+    this._out(this._BGyellow + this._black, txt); //magenta
+  }
+
   command(txt) {
     this._out(this._magenta, txt); //magenta
   }
