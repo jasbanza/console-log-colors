@@ -32,7 +32,7 @@ class ConsoleLogColors {
   ln() {
     this._out();
   }
-
+  
   debug(txt) {
     this._out(this._BGyellow + this._black, txt); //magenta
   }
@@ -63,6 +63,6 @@ class ConsoleLogColors {
 
 }
 
-module.exports = {
-  ConsoleLogColors
-};
+const out = new ConsoleLogColors();
+
+export default out;
